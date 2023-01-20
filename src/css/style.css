@@ -43,6 +43,8 @@
 .ratingitem:hover {
   cursor: pointer;
   background-color: var(--color_Orange);
+  transition: all 0.4s;
+
 }
 
 .ratingitem.selected {
