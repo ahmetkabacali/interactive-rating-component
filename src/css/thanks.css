@@ -1,0 +1,33 @@
+@import url("./style.css");
+.thanksContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+
+}
+
+.img-wrapper {
+    margin-bottom: 2rem;
+}
+.selected_text{
+    color: var(--color_Orange);
+    padding: 0.3rem 1.5rem;
+    background-color: var(--color_Bg_Star);
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+}
+.thankyou{
+    font-size: 2rem;
+}
+.thank_text{
+    margin-top: 0.8rem;
+    font-size: 0.9rem;
+    opacity: 0.5;
+}
+.rateAgain{
+    width: 100%;
+}
