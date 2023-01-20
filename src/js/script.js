@@ -26,7 +26,7 @@ submitBtn.onclick = function () {
             <div class="selected_text">You selected <span class="selected_rate">${selected_rate}</span> out of 5</div>
             <div class="thankyou">Thank You</div>
             <p class="thank_text">We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
-            <button type="submit" onclick=rateAgain() class="btn rateAgain">Rate Again</button>
+            <button type="submit" onclick=rateAgain() class="btn rateAgain">RATE AGAIN</button>
         </div>
         `
         mainContent.innerHTML = html
