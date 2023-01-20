@@ -54,6 +54,8 @@ main {
     color: white;
     font-weight: bold;
     letter-spacing: 2px;
+    border: none;
+
   }
   
   .btn:hover {
