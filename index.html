@@ -1,44 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./src/img/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/thanks.css" />
+    <title>Frontend Mentor | Interactive rating component</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" sizes="32x32" href="./src/img/favicon-32x32.png">
-  <link rel="stylesheet" href="./src/css/style.css">
-  <link rel="stylesheet" href="./src/css/thanks.css">
-  <title>Frontend Mentor | Interactive rating component</title>
-
-</head>
-
-<body id="body">
-  <main id="main">
-    <div class="container ratingContainer">
-      <div class="star-wrapper">
-        <img class="star" src="./src/img/icon-star.svg" alt="" width="20" aria-label="hidden">
+  <body id="body">
+    <main id="main">
+      <div class="container ratingContainer">
+        <div class="star-wrapper">
+          <img
+            class="star"
+            src="./src/img/icon-star.svg"
+            alt=""
+            width="20"
+            aria-label="hidden"
+          />
+        </div>
+        <h1 class="title">How did we do?</h1>
+        <p class="offering-text">
+          Please let us know how we did with your support request. All feedback
+          is appreciated to help us improve our offering!
+        </p>
+        <div class="rating">
+          <span class="ratingitem">1</span>
+          <span class="ratingitem">2</span>
+          <span class="ratingitem">3</span>
+          <span class="ratingitem">4</span>
+          <span class="ratingitem">5</span>
+        </div>
+        <button class="btn btn-submit">SUBMIT</button>
       </div>
-      <h1 class="title">How did we do?</h1>
-      <p class="offering-text"> Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
-      <div class="rating">
-        <span class="ratingitem">1</span>
-        <span class="ratingitem">2</span>
-        <span class="ratingitem">3</span>
-        <span class="ratingitem">4</span>
-        <span class="ratingitem">5</span>
-      </div>
-      <button class="btn btn-submit">SUBMIT</button>
-    </div>
-  </main>
+    </main>
 
-
-
-
-  <footer class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Ahmet Kabacali</a>.
-  </footer>
-  <script src="./src/js/script.js"></script>
-  <script src="./src/js/thanks.js"></script>
-</body>
-
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Ahmet Kabacali</a>.
+    </footer>
+    <script src="./src/js/script.js"></script>
+    <script src="./src/js/thanks.js"></script>
+  </body>
 </html>
