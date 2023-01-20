@@ -6,7 +6,7 @@ const ratingitem = document.querySelectorAll(".ratingitem");
 const submitBtn = document.querySelector(".btn-submit");
 let selected_rate;
 
-const xxx=rating.addEventListener("click", (e) => {
+rating.addEventListener("click", (e) => {
     for (const i of ratingitem) {
         i.classList.remove("selected")
     };
