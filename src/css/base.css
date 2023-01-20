@@ -62,6 +62,7 @@ main {
     background-color: white;
     color: var(--color_Orange);
     cursor: pointer;
+    transition: all 0.4s;
   }
 
 .attribution {font-size: 0.8rem;text-align: center;}
